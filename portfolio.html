@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukund R. Bharadwaj | Astro-Particle Physicist & Researcher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Deep dark blue */
+        }
+        .section-heading {
+            /* Increased font size and weight for more prominence */
+            @apply text-5xl font-extrabold tracking-tight text-gray-100 sm:text-6xl;
+        }
+        .card {
+            @apply bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+        }
+        .quirky-bg {
+            background-color: #0f172a;
+            opacity: 0.5;
+            background-image: linear-gradient(#f59e0b 0.5px, transparent 0.5px), linear-gradient(to right, #f59e0b 0.5px, #0f172a 0.5px);
+            background-size: 2rem 2rem;
+        }
+    </style>
+</head>
+<body class="text-gray-300 transition-colors duration-500">
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20">
+
+        <!-- Hero Section -->
+        <section class="text-center min-h-[70vh] flex flex-col items-center justify-center relative">
+            <div class="absolute inset-0 quirky-bg rounded-3xl opacity-30"></div>
+             <div class="relative z-10">
+                <h1 class="text-5xl md:text-7xl font-black text-gray-100 tracking-tighter mb-4">
+                    Mukund R. Bharadwaj
+                </h1>
+                <p class="text-xl md:text-2xl text-amber-400 mb-8">
+                    Ph.D. in Astro-Particle Physics
+                </p>
+                <div class="flex justify-center items-center gap-4 mb-8">
+                    <a href="#experience" class="bg-amber-500 text-slate-900 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-amber-600 transition-all transform hover:-translate-y-0.5">My Journey</a>
+                    <a href="#contact" class="bg-slate-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-slate-600 transition-all transform hover:-translate-y-0.5 border border-slate-600">Contact Me</a>
+                </div>
+                <p class="max-w-3xl mx-auto text-lg text-slate-400">
+                    Navigating the cosmos from the quantum to the cosmic scale. I build cutting-edge detectors to hunt for the universe's most elusive particles and unravel its deepest mysteries.
+                </p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 md:py-32">
+            <div class="grid md:grid-cols-5 gap-10 items-center">
+                <div class="md:col-span-2">
+                    <div class="relative w-full max-w-xs mx-auto">
+                         <div class="absolute -inset-2 bg-gradient-to-br from-amber-500 to-indigo-600 rounded-full blur-xl opacity-60"></div>
+                         <img src="https://placehold.co/400x400/f59e0b/0f172a?text=MRB" alt="Mukund R. Bharadwaj" class="relative w-full rounded-full border-4 border-slate-800 shadow-lg">
+                    </div>
+                </div>
+                <div class="md:col-span-3 text-left">
+                    <h2 class="section-heading mb-6">Hi, I'm Mukund.</h2>
+                    <div class="space-y-4 text-lg text-slate-400">
+                        <p>
+                            I'm a Postdoctoral Researcher at the <strong class="text-gray-200">Max Planck Institute for Physics</strong>, where my work is at the thrilling intersection of low-temperature physics, quantum sensors, and detector development. My passion lies in creating novel tools to ask fundamental questions about our universe.
+                        </p>
+                        <p>
+                            After completing my Ph.D. in Munich, I've continued my journey into the world of astro-particle physics. I lead the deployment of advanced cryogenic detector modules, coordinating with brilliant minds across the globe. When I'm not in an underground lab, you might find me speedcubing, or curating my stamp and Hot Wheels collections.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="py-20 md:py-32">
+            <h2 class="section-heading text-center mb-16">My Journey</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <!-- Timeline line -->
+                <div class="absolute left-4 md:left-1/2 -ml-px w-0.5 h-full bg-slate-700"></div>
+
+                <!-- Postdoc (Right on Desktop) -->
+                <div class="relative mb-12">
+                    <div class="absolute left-4 md:left-1/2 -ml-3 w-6 h-6 rounded-full bg-amber-500 border-4 border-slate-900"></div>
+                    <div class="pl-12 md:pl-0 md:w-1/2 md:pr-12 md:text-right">
+                        <p class="text-sm font-medium text-amber-400">July 2025 - Present</p>
+                        <h3 class="text-xl font-bold text-gray-100 mt-1">Postdoctoral Researcher</h3>
+                        <p class="text-slate-400">Max Planck Institute for Physics, Munich</p>
+                        <p class="mt-2 text-slate-400">Leading deployment of cryogenic detector modules for a low-background underground laboratory.</p>
+                    </div>
+                </div>
+
+                <!-- PhD (Left on Desktop) -->
+                <div class="relative mb-12">
+                    <div class="absolute left-4 md:left-1/2 -ml-3 w-6 h-6 rounded-full bg-amber-500 border-4 border-slate-900"></div>
+                    <div class="pl-12 md:w-1/2 md:pl-12 ml-auto">
+                        <p class="text-sm font-medium text-amber-400">April 2021 - July 2025</p>
+                        <h3 class="text-xl font-bold text-gray-100 mt-1">PhD Research Scholar</h3>
+                        <p class="text-slate-400">Max Planck Institute for Physics, Munich</p>
+                        <p class="mt-2 text-slate-400">Developed a novel detector readout technique using superconducting quantum sensors.</p>
+                    </div>
+                </div>
+                
+                 <!-- ISRO (Right on Desktop) -->
+                <div class="relative mb-12">
+                    <div class="absolute left-4 md:left-1/2 -ml-3 w-6 h-6 rounded-full bg-amber-500 border-4 border-slate-900"></div>
+                    <div class="pl-12 md:pl-0 md:w-1/2 md:pr-12 md:text-right">
+                        <p class="text-sm font-medium text-amber-400">Jan 2020 - June 2020</p>
+                        <h3 class="text-xl font-bold text-gray-100 mt-1">Graduate Researcher</h3>
+                        <p class="text-slate-400">Indian Space Research Organization (ISRO)</p>
+                        <p class="mt-2 text-slate-400">Enhanced 4H-SiC detector performance and developed front-end electronics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 md:py-32">
+             <h2 class="section-heading text-center mb-12">Toolkit & Expertise</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                 <div class="card p-6">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Scientific Expertise</h3>
+                    <ul class="list-disc list-inside space-y-2 text-slate-400">
+                        <li>Low-Temperature Physics</li>
+                        <li>Detector Development</li>
+                        <li>UHV Cryogenics</li>
+                        <li>Dilution Refrigerators</li>
+                    </ul>
+                 </div>
+                 <div class="card p-6">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Software & Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-amber-900/50 text-amber-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                        <span class="bg-amber-900/50 text-amber-300 text-sm font-medium px-3 py-1 rounded-full">C++</span>
+                        <span class="bg-amber-900/50 text-amber-300 text-sm font-medium px-3 py-1 rounded-full">Matlab</span>
+                        <span class="bg-amber-900/50 text-amber-300 text-sm font-medium px-3 py-1 rounded-full">Simulation Tools</span>
+                    </div>
+                 </div>
+                 <div class="card p-6">
+                    <h3 class="text-xl font-bold text-gray-100 mb-3">Project Coordination</h3>
+                     <ul class="list-disc list-inside space-y-2 text-slate-400">
+                        <li>R&D Management</li>
+                        <li>International Team Coordination</li>
+                        <li>Event Organization</li>
+                        <li>Scientific Outreach</li>
+                    </ul>
+                 </div>
+             </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="py-20 md:py-32">
+            <h2 class="section-heading text-center mb-12">Selected Publications</h2>
+            <div class="max-w-4xl mx-auto">
+                 <div class="card p-6 h-80 overflow-y-auto space-y-4">
+                     <!-- Publication Items -->
+                     <div class="border-b border-slate-700 pb-2">
+                        <a href="https://arxiv.org/abs/2504.18263" target="_blank" rel="noopener noreferrer" class="font-semibold text-gray-200 hover:text-amber-400 transition-colors">COSINUS model-independent sensitivity to the DAMA/LIBRA dark matter signal</a>
+                        <p class="text-sm text-slate-400">G. Angloher et al. (COSINUS Collaboration) arXiv:2504.18263 (2025)</p>
+                     </div>
+                     <div class="border-b border-slate-700 pb-2">
+                        <a href="https://doi.org/10.1103/PhysRevD.110.123012" target="_blank" rel="noopener noreferrer" class="font-semibold text-gray-200 hover:text-amber-400 transition-colors">Dark matter-electron scattering search using cryogenic light detectors</a>
+                        <p class="text-sm text-slate-400">V. Zema et al. (COSINUS Collaboration) Phys. Rev. D, 110, 123012, (2024)</p>
+                     </div>
+                     <div class="border-b border-slate-700 pb-2">
+                        <a href="https://pos.sissa.it/441/060/" target="_blank" rel="noopener noreferrer" class="font-semibold text-gray-200 hover:text-amber-400 transition-colors">remoTES: A novel cryogenic detector for rare-event searches</a>
+                        <p class="text-sm text-slate-400">M.R. Bharadwaj et al. (COSINUS Collaboration) Proc. Sci., 441, 060, (2024)</p>
+                     </div>
+                     <div class="border-b border-slate-700 pb-2">
+                        <a href="https://doi.org/10.1016/j.nima.2022.167532" target="_blank" rel="noopener noreferrer" class="font-semibold text-gray-200 hover:text-amber-400 transition-colors">First measurements of remoTES cryogenic calorimeters</a>
+                        <p class="text-sm text-slate-400">G. Angloher et al. (COSINUS Collaboration) Nucl. Instrum. Methods Phys. Res. A, 1045, 167532, (2023)</p>
+                     </div>
+                      <div class="pb-2">
+                        <a href="https://doi.org/10.1088/1361-6471/aba339" target="_blank" rel="noopener noreferrer" class="font-semibold text-gray-200 hover:text-amber-400 transition-colors">Impact of Charge Trapping on the Energy Resolution of Ge Detectors</a>
+                        <p class="text-sm text-slate-400">D.M. Mei et al., J. Phys. G: Nucl. Part. Phys. 47, 105106 (2020)</p>
+                     </div>
+                 </div>
+                 <p class="text-center mt-6 text-slate-500">Note: This is a curated list. A full list of publications is available upon request.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 md:py-32 text-center">
+             <h2 class="section-heading mb-4">Let's Connect</h2>
+             <p class="max-w-2xl mx-auto text-lg text-slate-400 mb-8">
+                 I'm always open to discussing new projects, research collaborations, or just chatting about the universe. Feel free to reach out.
+             </p>
+             <div class="flex justify-center items-center space-x-6">
+                <a href="mailto:mukund.rb@protonmail.com" class="inline-block bg-amber-500 text-slate-900 font-bold py-3 px-6 rounded-lg hover:bg-amber-600 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+                    Email Me
+                </a>
+             </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="border-t border-slate-800">
+        <div class="container mx-auto px-6 py-8 text-center text-slate-400">
+            <div class="flex justify-center items-center space-x-6 mb-4">
+                <a href="mailto:mukund.rb@protonmail.com" class="hover:text-amber-400 transition-colors">Email</a>
+                <span class="text-slate-600">|</span>
+                <a href="https://linkedin.com/in/mukundrb" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors">LinkedIn</a>
+            </div>
+            <p class="text-slate-500">&copy; <span id="year"></span> Mukund R. Bharadwaj. Designed with curiosity.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
+
